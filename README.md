@@ -1,21 +1,28 @@
-# Blue Prince — Hintforge Companion
+# Blue Prince
 
-![Blue Prince companion status — coverage, how current it is, and spoiler control](assets/readme-status-card.svg)
+![Blue Prince companion status: coverage, how current it is, and spoiler control](assets/readme-status-card.svg)
 
-A spoiler-controlled hint companion for **Blue Prince**, Dogubomb's puzzle adventure where you draft the rooms of a changing manor one door at a time and try to reach a room no one can find. Built in the [Hintforge](https://github.com/hintforge/builder) format: a loyal sidekick that answers only from these guide files — never from guesswork — at the spoiler level you set.
+A free hint guide for Blue Prince, with spoiler levels you control. As you draft rooms in a manor that changes every day, ask for help in plain words. Your AI agent answers only from the guide files, never its own memory.
 
 ## Use it
 
-You need a Hintforge reader running in Claude Code, Codex, or OpenClaw. Point it at this repo:
+Install the [reader](https://github.com/hintforge/reader) in any AI agent that can read files on your computer, then tell it:
 
 > Load the Blue Prince guide from github.com/hintforge/blue-prince
 
-Then just ask — *"what does this room do," "how do drafting odds work," "give me a small nudge on this puzzle."* Runtime setup lives in [`hintforge/reader`](https://github.com/hintforge/reader).
+Try "what does this room do", "how do drafting odds work" or "give me a small nudge on this puzzle".
+
+The guide uses the [Hintforge](https://github.com/hintforge/builder) format. The agent reads and writes only files you control.
 
 ## Spoilers
 
-Blue Prince is a game of discovery, and almost everything worth knowing is something you are meant to find. The puzzle dial starts at zero: the companion says nothing about a puzzle until you ask, and each ask climbs one small hint at a time, with the answer only at the top. Late rooms, the story and the deeper secrets stay out of answers until you raise the dials. Every fact carries its source and says how sure it is, and where the sources disagree or say nothing, the guide says so instead of guessing.
+There are two spoiler dials. The puzzle dial starts at zero: the guide says nothing about a puzzle until you ask. Each ask moves up one small hint, with the answer only at the top. Late rooms, the story and deeper secrets stay hidden until you raise the dials.
+
+Every fact includes its source and how sure it is. If sources disagree or say nothing, the guide says so.
 
 ## What's inside
 
-A structured Markdown corpus — how drafting, the daily run and the manor's resources work, a room lookup, permanent upgrades and items, puzzles with step-by-step hint ladders, the dependencies between unlocks, things you can miss, settings, controls for each platform (PC, PS5, Xbox Series and Switch 2; the console button layouts are still a gap), and all 16 achievements. The companion reads and writes only the files you control.
+- Drafting, daily runs, resources and a room lookup.
+- Permanent upgrades, items, puzzle hint ladders, which unlocks depend on which, and things you can miss.
+- Settings and controls for PC, PS5, Xbox Series and Switch 2. Console button layouts are still missing.
+- All 16 achievements.
