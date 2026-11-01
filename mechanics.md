@@ -312,7 +312,7 @@ _source: P1 research 2026-10-31 refs [1][5][6][9][58][62] · capture: web_fetch 
 
 ## Combat
 
-No combat system or enemies appeared in any page read; the owner states the game has none. Still unverified (the P1 result marks this a hypothesis).
+No combat system or enemies appeared in any page read. Still unverified (the P1 result marks this a hypothesis).
 _source: P1 research 2026-10-31 refs [3][37][26][35][48] · capture: web_fetch · confidence: low · enemy-tier: 0 · puzzle-tier: 0 · category: mainline · spoiler: none_ [Hypothesis -- unverified]
 
 ## Sources

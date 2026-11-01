@@ -11,7 +11,7 @@ To change: "set enemy warning to tier N" / "set puzzle tier to N." Update this s
 
 ## Game-specific notes
 
-- Blue Prince is a puzzle and discovery game; the owner states it has no combat (not verified during setup). The enemy dial is kept for format compatibility and sits at 0.
+- Blue Prince is a puzzle and discovery game; no source read mentions combat (unverified). The enemy dial is kept for format compatibility and sits at 0.
 - Spoiler discipline is the core value of this guide. At puzzle tier 0 nothing is volunteered; hints climb one level per ask (Lvl 1 nudge, then Lvl 2, then Lvl 3).
 - Room 46 and everything beyond it, and all story and lore reveals, are tagged at the high spoiler tiers (`late-game` or `story`) at ingestion. The bare existence of Room 46 as the goal is in the game's own store description and is tagged `none`.
 - Hidden achievement names can themselves reveal mechanics; they are tagged high and hidden at read time until the dials allow them.

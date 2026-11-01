@@ -68,7 +68,7 @@ Candidates (Stage 0 search 2026-10-31, merged with the P1 and P2 research result
 
 ### Pages seen as search results only (not opened by P1)
 - gamespot.com and screenrant.com trophy guides; mp1st.com early console update pages (1.003 to 1.011); rutab.net (Russian review roundup); lootlevelchill.com, deltiasgaming.com, gameluster.com, sportskeeda.com and dexerto.com English tips and room lists; four Steam Community threads (snippets only); the developer's other X posts and Bluesky posts (settings screenshots). Access check: not checked. Each could add triangulation; none supplies confirmed facts.
-- Polish-language sources: none found in P1's two searches (gry-online.pl named in the brief); P2's retry found and read a Polish guide site (Playnews, below) and still found nothing on gry-online.pl.
+- Polish-language sources: none found in P1's two searches (gry-online.pl among the sites tried); P2's retry found and read a Polish guide site (Playnews, below) and still found nothing on gry-online.pl.
 
 ### Sportskeeda / Deltia's Gaming -- controller versus mouse
 - Block type: javascript-dependent (direct fetch returned HTTP 405 and both pages were then read through a headless browser, 2026-10-31; no Cloudflare challenge, 403 or 503 is recorded, and the cause of the 405 is not recorded). Everything was recovered.
